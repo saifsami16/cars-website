@@ -1,0 +1,107 @@
+/* custom fonts */ 
+ 
+ 
+ @import url('https://fonts.googleapis.com/css?family=Courgette');
+ 
+ 
+/* html */
+html {
+	background-color:black;
+	background-image:url('../media/newbg');
+	background-size: 100%;
+	background-repeat:repeat-x;
+	
+}
+
+/* body */
+ body {
+	font-family: Arial, Verdana, sans-serif;
+	background-color:white;
+	width:80%;
+	padding:30px; 
+	margin:10px auto;
+	border:2px solid pink;
+	border-radius:10px;
+	text-align: justify;
+}
+
+
+/* headings */
+h1,h2,h3 {
+    font-family: 'Courgette', cursive, sans-serif;
+}
+
+h1 {
+	font-size:4em;
+	text-shadow: lightgray 7px 7px 5px;
+	font-variant:small-caps; 
+	letter-spacing:4px;
+	text-align:center;
+}
+h2 {
+	font-size:2em;
+}
+
+h3 {
+	font-size:1.5em;
+	
+}
+
+
+p {
+	text-align:justify;
+	line-height:1.5em;
+}
+
+
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+/* table */
+
+table {
+    font-family: Bradley Hand, cursive,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+/* structure */
+
+
+
+#mainmenu  {
+	text-align:right;
+	font-weight: bold;
+	background-color:#c6bdbb;
+	padding:10px;
+}
+
+footer p, #footer p {
+	text-align:center;
+}
+
+/* form */
+
+fieldset {
+	background-color: gray;
+	border-radius: 15px;
+}
+
+
+
+@viewport {
+  zoom: 1.0 ;
+}
+
